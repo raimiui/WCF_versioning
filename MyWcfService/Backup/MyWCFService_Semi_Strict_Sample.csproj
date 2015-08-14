@@ -6,12 +6,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{08B11A75-6B2B-47F3-B68C-D0E10449909D}</ProjectGuid>
+    <ProjectGuid>{1276982B-52D5-49BC-A5CE-E9910C0207E3}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MyWCFService_Strict_Sample</RootNamespace>
-    <AssemblyName>MyWCFService_Strict_Sample</AssemblyName>
+    <RootNamespace>MyWCFService_Semi_Strict_Sample</RootNamespace>
+    <AssemblyName>MyWCFService_Semi_Strict_Sample</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -52,8 +52,10 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MyService_Strict.svc" />
-    <Content Include="Web.config" />
+    <Content Include="MyService_Semi_Strict.svc" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -62,8 +64,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyService_Strict.svc.cs">
-      <DependentUpon>MyService_Strict.svc</DependentUpon>
+    <Compile Include="MyService_Semi_Strict.svc.cs">
+      <DependentUpon>MyService_Semi_Strict.svc</DependentUpon>
     </Compile>
     <Compile Include="IMyService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -79,7 +81,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>2720</DevelopmentServerPort>
+          <DevelopmentServerPort>4033</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

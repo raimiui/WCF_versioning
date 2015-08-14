@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="19564448-91de-4027-8ea4-732fb6f41412" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2720/MyService_Strict.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MyService_Strict.wsdl" MetadataType="Wsdl" ID="faa1a123-0d8c-4a8a-9972-f58123c4cf83" SourceId="1" SourceUrl="http://localhost:2720/MyService_Strict.svc?wsdl" />
+    <MetadataFile FileName="MyService_Strict1.wsdl" MetadataType="Wsdl" ID="9a65cd73-3b55-4f8a-bf9b-7e2a30d5389a" SourceId="1" SourceUrl="http://localhost:2720/MyService_Strict.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="MyService_Strict.xsd" MetadataType="Schema" ID="4d901637-92d5-4bb7-8d1d-3c41b29a3df9" SourceId="1" SourceUrl="http://localhost:2720/MyService_Strict.svc?xsd=xsd1" />
+    <MetadataFile FileName="MyService_Strict1.xsd" MetadataType="Schema" ID="58e0d7da-50b8-430f-9f80-c008dad90b0a" SourceId="1" SourceUrl="http://localhost:2720/MyService_Strict.svc?xsd=xsd2" />
+    <MetadataFile FileName="MyService_Strict2.xsd" MetadataType="Schema" ID="9ac6ff5b-3f1c-44b6-a64f-dd8c3c9b3c1d" SourceId="1" SourceUrl="http://localhost:2720/MyService_Strict.svc?xsd=xsd0" />
+    <MetadataFile FileName="MyService_Strict.disco" MetadataType="Disco" ID="2f8c6ced-4c8a-4499-95c4-fa021124a046" SourceId="1" SourceUrl="http://localhost:2720/MyService_Strict.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

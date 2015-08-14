@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="989b1f12-5380-4beb-89eb-5136b3eccd3f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4033/MyService_Semi_Strict.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MyService_Semi_Strict.disco" MetadataType="Disco" ID="27c25011-66ff-4394-bb24-6c0140522b2a" SourceId="1" SourceUrl="http://localhost:4033/MyService_Semi_Strict.svc?disco" />
+    <MetadataFile FileName="MyService_Semi_Strict2.wsdl" MetadataType="Wsdl" ID="f819a701-d84f-48d3-8484-f8f037f4b39b" SourceId="1" SourceUrl="http://localhost:4033/MyService_Semi_Strict.svc?wsdl=wsdl1" />
+    <MetadataFile FileName="MyService_Semi_Strict.xsd" MetadataType="Schema" ID="7cfd8554-bdf6-4cdc-8ba7-2820272e1dba" SourceId="1" SourceUrl="http://localhost:4033/MyService_Semi_Strict.svc?xsd=xsd0" />
+    <MetadataFile FileName="MyService_Semi_Strict1.xsd" MetadataType="Schema" ID="496a5443-3312-4f4e-ade8-1f4d3a0d1e66" SourceId="1" SourceUrl="http://localhost:4033/MyService_Semi_Strict.svc?xsd=xsd1" />
+    <MetadataFile FileName="MyService_Semi_Strict.wsdl" MetadataType="Wsdl" ID="8c3a4199-b2cd-4927-8109-59e112862ddf" SourceId="1" SourceUrl="http://localhost:4033/MyService_Semi_Strict.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="MyService_Semi_Strict3.xsd" MetadataType="Schema" ID="dfde38fc-9712-438d-be88-31b699d65fcb" SourceId="1" SourceUrl="http://localhost:4033/MyService_Semi_Strict.svc?xsd=xsd3" />
+    <MetadataFile FileName="MyService_Semi_Strict2.xsd" MetadataType="Schema" ID="ad9c5741-511d-48f4-9996-9f528dc17458" SourceId="1" SourceUrl="http://localhost:4033/MyService_Semi_Strict.svc?xsd=xsd2" />
+    <MetadataFile FileName="MyService_Semi_Strict1.wsdl" MetadataType="Wsdl" ID="ac6e5027-b8a7-4899-8bc0-1ff6d99032a6" SourceId="1" SourceUrl="http://localhost:4033/MyService_Semi_Strict.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
